@@ -1,0 +1,21 @@
+int explorer(int k)
+{	
+	struct noeud *t;
+	int m, min;
+	val[k]=++id; min=id;
+	pile[p++]=k;
+	
+for(t=Adj[k];t!=z;t=t->suivant
+{
+	m=(!=val[t->s])?Explorer(t->s):val[t->s];
+	if(m<min) min=m;
+}
+	if(min==val[k])
+	{ while (pile[p]!=k)
+	{ printf("%c", Nom (pile[--p]));
+	   val[pile[p]]=S+1;
+	 }
+	printf("\n");
+	 }
+return min;
+}

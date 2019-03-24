@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1491262344 source:c:\users\chlochlo\desktop\graphes tp noté\graphestp2\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	"main.h"
+	"procedures.h"
+	"structures.h"
+
+1490085541 c:\users\chlochlo\desktop\graphes tp noté\graphestp2\main.h
+
+1491262607 c:\users\chlochlo\desktop\graphes tp noté\graphestp2\procedures.h
+
+1490427155 c:\users\chlochlo\desktop\graphes tp noté\graphestp2\structures.h
+
+1491199375 source:c:\users\chlochlo\desktop\graphes tp noté\graphestp2\structures.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	"structures.h"
+
+1491262346 source:g:\graphes tp noté\graphestp2\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	"main.h"
+	"procedures.h"
+	"structures.h"
+
+1490085542 g:\graphes tp noté\graphestp2\main.h
+
+1491262608 g:\graphes tp noté\graphestp2\procedures.h
+
+1490427156 g:\graphes tp noté\graphestp2\structures.h
+
+1491199376 source:g:\graphes tp noté\graphestp2\structures.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+	"structures.h"
+
+1491262678 source:g:\graphes tp noté\graphestp2\procedures.c
+	"main.h"
+	"procedures.h"
+	"structures.h"
+	<stdio.h>
+	<stdlib.h>
+

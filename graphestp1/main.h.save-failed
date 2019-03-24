@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+typedef struct _matrice matrice;
+struct matrice
+{
+    int    taille;
+    int    **matriceAdj;
+
+};
+

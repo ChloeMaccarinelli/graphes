@@ -1,0 +1,30 @@
+
+#include "main.h"
+
+
+#ifndef CONNEXITE_H_INCLUDED
+#define CONNEXITE_H_INCLUDED
+
+/********
+STRUCTURE & PROCEDURE de connexité
+*******/
+
+typedef struct Composante_Fortement_Connexe CFC;
+typedef struct Liste_Sommet_Connexe LSC;
+
+struct Composante_Fortement_Connexe {
+  int tailleTab;
+  LSC * tabCC;
+};
+
+struct Liste_Sommet_Connexe {
+  Sommet * tabSommet;
+};
+
+
+int est_Connexe(ListeSommet g);
+int est_fortementConnexe(ListeSommet g);
+
+
+
+#endif // CONNEXITE_H_INCLUDED

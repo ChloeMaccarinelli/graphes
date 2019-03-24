@@ -1,0 +1,15 @@
+
+#include "main.h"
+
+
+#ifndef PARCOURS_H_INCLUDED
+#define PARCOURS_H_INCLUDED
+
+/********
+STRUCTURE & PROCEDURE de parcours
+*******/
+void parcoursLargeur(Sommet *s);
+void parcoursProfondeurRecursif(Sommet *s);
+
+
+#endif // PARCOURS_H_INCLUDED

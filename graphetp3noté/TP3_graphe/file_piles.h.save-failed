@@ -1,0 +1,28 @@
+
+#include "main.h"
+
+
+#ifndef FILE_PILES_H_INCLUDED
+#define FILE_PILES_H_INCLUDED
+
+/********
+STRUCTURE pour pile et file
+*******/
+
+
+typedef struct Maillon Maillon;
+
+struct Maillon {
+    Sommet *val;
+    Maillon *suiv;
+};
+
+void affichierFile(Maillon *file);
+Maillon * enfiler(Maillon *file, Sommet *s);
+Maillon * defiler(Maillon *file);
+Sommet * lastFile(Maillon *file);
+void empiler(Maillon *file, Sommet *s);
+Sommet * depiler(Maillon *pile);
+void supprimerFile(Maillon *file, Sommet *s);
+
+#endif // FILE_PILES_H_INCLUDED

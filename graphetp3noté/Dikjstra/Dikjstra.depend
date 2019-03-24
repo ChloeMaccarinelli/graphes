@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1493799196 source:g:\graphes tp noté\graphetp3noté\dikjstra\main.cpp
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<math.h>
+
